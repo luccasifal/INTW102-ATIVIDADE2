@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title>Questão 07</title>
+  </head>
+  <body>
+    <center>
+      <h2>Ficha Cadastral</h2>
+      <div style="display: flex">
+        <form action="">
+          <table>
+            <tr>
+              <td>Nome:</td>
+              <td><input style="width: 245%" type="text" /></td>
+            </tr>
+            <tr>
+              <td>RG:</td>
+              <td><input type="text" maxlength="13" /></td>
+              <td>C.P.F.:</td>
+              <td><input type="text" maxlength="13" /></td>
+            </tr>
+            <tr>
+              <td>Endereço:</td>
+              <td><input style="width: 245%" type="text" maxlength="55" /></td>
+            </tr>
+            <tr>
+              <td>Sexo:</td>
+              <td>
+                <select name="sexo" id="">
+                  <option value="M">Masculino</option>
+                  <option value="F">Feminino</option>
+                </select>
+              </td>
+              <td>Data de Nacimento:</td>
+              <td><input type="text" maxlength="13" /></td>
+            </tr>
+            <tr>
+              <td>Situação Cívil:</td>
+              <td><input type="radio" />Solteiro(a)</td>
+              <td style="width: 25%"><input type="radio" />Casado(a)</td>
+              <td><input type="radio" />Viuvo(a)</td>
+            </tr>
+          </table>
+          <input type="submit" value="Limpar dados" id="btnLimpar" />
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
